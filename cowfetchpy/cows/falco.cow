@@ -1,0 +1,79 @@
+# Falco Lombardi (Star Fox, Super Smash Bros)
+# sprite from Card Sagas Wars - https://www.spriters-resource.com/fullview/106680/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;25m  ";
+$c = "\e[48;5;32m  ";
+$d = "\e[48;5;75m  ";
+$e = "\e[48;5;88m  ";
+$f = "\e[48;5;160m  ";
+$g = "\e[48;5;240m  ";
+$h = "\e[48;5;242m  ";
+$i = "\e[48;5;248m  ";
+$j = "\e[48;5;52m  ";
+$k = "\e[48;5;167m  ";
+$l = "\e[48;5;254m  ";
+$m = "\e[48;5;231m  ";
+$n = "\e[48;5;214m  ";
+$o = "\e[48;5;130m  ";
+$p = "\e[48;5;222m  ";
+$q = "\e[48;5;243m  ";
+$r = "\e[48;5;237m  ";
+
+$the_cow = <<EOC
+      $t
+        $t        $a  $x
+          $t      $a$b$a$x
+            $t    $a$b$c$b$a$x
+                    $b$c    $b$a$x
+                    $a$b$c$d  $c$b$a$x
+                      $a$b$c$d    $c$b$a$x
+                  $a      $b  $c$d      $c$b$a$x
+                  $a$b$c  $d                  $c$b$x
+                    $a$b        $c  $d          $c$b$x
+                      $a$b  $c  $d                $c$a$x
+                    $a        $b  $c$e$f      $d    $b$x
+                    $a$g$h  $g    $h$g$e$f      $d  $b$x
+                    $g$i  $j$e  $k$l$g$e$a    $f$d$c$b$x
+              $b$x  $g$i  $j$e  $k$l$g$e$i    $a$e$b$a$x
+      $b$x  $a$b$x  $a$g$h  $j  $e$l$g$b$e$m  $c$a    $x
+      $c$a$x$a$c$x  $a            $g$b$d$b$e  $a$n    $o$a$x
+      $c$b$a$b$d$a  $b    $c$d$c  $d  $c$b$a  $n$p    $n$o$a$x
+      $c  $a$b$d$a$b$c    $d$c$b$d    $a$o  $n$p        $n$o$x
+      $b$c  $b$d$b$a$b$a$h$a$b$d$c$d$c$n$p$n$a  $o    $p  $n$x
+    $b$a$b$c$b$c$d$b$a  $i$h$a  $b$c  $a$o$n        $a$o$p$n$x
+    $c$b$a$b$c$b$c  $b$h$l$i$h$a    $b$a                $n$a$x      $a$g$a$g$a$g$x$g$a$g$a$x$a  $x
+    $a$c  $a$c$d$c$b$a$i$l$i  $h  $a      $h    $a$x  $a  $x  $a    $q$a$q$a$q$a    $g$q    $g$q$x
+      $a$b$c$d    $c$h$i$l$i$l  $i              $h$x        $a$g  $a$g        $a$e$a          $q$x
+        $a$b  $c  $b$h$l$h$m  $l  $i$l$m  $l$i$h$a  $b      $a            $e        $k    $a$g$q$x
+      $b  $c    $b$a$h$i$h$m    $l  $m  $l  $h$a$h$a$b$c      $b$a  $g  $q            $g  $a    $x
+        $a            $h$a$l          $i  $h$a$h$i$h$c  $d  $c$d$b$a                      $x
+                  $a      $h  $i    $a    $h$i$h$i$h$c$d$c$d$b$c$d$a$g$a  $x
+                    $a$h    $a      $h  $i        $h$c  $b$d$a  $g  $a  $x
+              $a          $h  $i              $h$i$a$b  $a$c$a  $b$c$b$a$x
+              $a$b$c      $a        $h            $a    $b$c$a    $b$a$x
+                $a  $b      $a$j$e  $j$a          $j  $a            $x
+                  $a        $j$e  $j$a$k$a    $j  $e    $j$a      $x
+                $a$b  $j$k$a$j  $a  $k$a$j$a    $j  $e    $j$a$x
+                $a  $j$k  $j$a$k$l$i$j  $e$j$a$j$e    $k  $j$a$x
+                    $j$k  $e$a    $j$e$k  $e$a  $j$e$k    $e$j$x
+                      $e$k$e$a$j$e  $k      $a    $j$k      $j$g$a$x
+                      $a$e  $j$a$j$e$k    $e$a    $j$e$k  $e$a$i$g$x
+                        $a$e$j$a$x$j$e$k$e$j$a    $x$j  $e$a$i$m$h$a$x
+                          $a$j$a$x$a  $j  $a$h$a  $x  $a  $g$h$i$a  $x
+                            $a  $x$a$g$a  $g$h$a    $x$a$g$h  $a$i$g$x
+                                    $a$g$h  $a$r  $a  $x$a  $g$h$m$h$a$x
+                                      $a    $r      $a$x  $g$h$g  $a  $x
+                                        $a$r        $a$x    $g$a  $i$g$a$x
+                                          $a$r    $a$x        $g$h$g$a$r$a$x
+                                            $a    $x            $a  $r    $a$x
+                                                                $a$r    $q$g$r$x
+                                                                  $r  $g$q  $g$a$x
+                                                                  $a$r$g$q  $g$r$a$x
+                                                                  $a$r  $g  $r  $a$x
+EOC
+
+</rewritten_file> 
